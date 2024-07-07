@@ -1,0 +1,4 @@
+2024-07-06 12:47:12.944 [info] Started local extension host with pid 3513.
+2024-07-06 12:47:15.614 [info] [perf] Render performance baseline is 21ms
+2024-07-06 12:47:28.328 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/garo/.config/VSCodium/logs/20240516T120328' failed: No such file or directory (EUNKNOWN) (path: /home/garo)
+2024-07-06 12:47:28.328 [error] [File Watcher (universal)] restarting watcher from error in watch request (retrying request): inotify_add_watch on '/home/garo/.config/VSCodium/logs/20240516T120328' failed: No such file or directory ({"path":"/home/garo","excludes":["**/.git/objects/**","**/.git/subtree-cache/**","**/node_modules/*/**","**/.hg/store/**"],"recursive":true})

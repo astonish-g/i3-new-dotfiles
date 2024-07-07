@@ -1,0 +1,156 @@
+2024-07-01 13:40:56.831 [info] Log level: Info
+2024-07-01 13:40:56.832 [info] Validating found git in: "git"
+2024-07-01 13:40:56.832 [info] Using git "2.45.2" from "git"
+2024-07-01 13:40:56.832 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-01 13:40:56.832 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.832 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-01 13:40:56.832 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.832 [info] > git rev-parse --show-toplevel [98ms]
+2024-07-01 13:40:56.832 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.849 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-01 13:40:56.849 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.864 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:40:56.864 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.877 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:56.877 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.890 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:56.890 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.904 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:56.904 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.917 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:56.917 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.930 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:40:56.931 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.944 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:56.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:56.959 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-01 13:40:56.973 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-07-01 13:40:56.981 [info] Open repository: /home/garo/.oh-my-bash
+2024-07-01 13:40:57.009 [info] > git config --get commit.template [14ms]
+2024-07-01 13:40:57.011 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-01 13:40:57.011 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-07-01 13:40:57.039 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-01 13:40:57.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.063 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-01 13:40:57.063 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.090 [info] > git status -z -uall [28ms]
+2024-07-01 13:40:57.091 [info] > git rev-parse --show-toplevel [19ms]
+2024-07-01 13:40:57.091 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.133 [info] > git merge-base refs/heads/master refs/remotes/origin/master [31ms]
+2024-07-01 13:40:57.147 [info] > git config --get commit.template [14ms]
+2024-07-01 13:40:57.147 [info] > git rev-parse --show-toplevel [25ms]
+2024-07-01 13:40:57.147 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.161 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [17ms]
+2024-07-01 13:40:57.181 [info] > git rev-parse --show-toplevel [21ms]
+2024-07-01 13:40:57.181 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.216 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [36ms]
+2024-07-01 13:40:57.217 [info] > git diff --name-status -z --diff-filter=ADMR d55683133b6be49d1b649b3bc292285038a2e2eb...refs/remotes/origin/master [45ms]
+2024-07-01 13:40:57.220 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-01 13:40:57.220 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.243 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-01 13:40:57.243 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.258 [info] > git status -z -uall [17ms]
+2024-07-01 13:40:57.263 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-01 13:40:57.263 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.276 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.276 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.290 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.290 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.302 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.302 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.315 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.315 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.328 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.341 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:40:57.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.355 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.368 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.368 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:57.382 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:57.382 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:58.257 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:40:58.258 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:40:59.756 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-01 13:41:27.866 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:41:27.866 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:41:42.084 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:41:42.084 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:41:50.994 [info] > git rev-parse --show-toplevel [21ms]
+2024-07-01 13:41:50.994 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:41:52.859 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-01 13:41:52.859 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:42:53.630 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:42:53.630 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:01.317 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 13:43:01.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:03.451 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-01 13:43:03.451 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:04.351 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-01 13:43:04.351 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:05.300 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:43:05.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:05.992 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:43:05.993 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:06.539 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:43:06.539 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:43:12.928 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:43:12.928 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:46:21.536 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:46:21.536 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:47:57.710 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:47:57.710 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:48:03.529 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:48:03.529 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:48:06.206 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:48:06.206 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:48:13.058 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:48:13.058 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 13:48:13.782 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-01 13:48:13.782 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-01 14:00:50.678 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-01 14:00:50.692 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-07-01 14:00:50.698 [info] Open repository: /home/garo/.cache/yay/adw-gtk3
+2024-07-01 14:00:50.723 [info] > git config --get commit.template [12ms]
+2024-07-01 14:00:50.736 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-01 14:00:50.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/.invalid refs/remotes/.invalid [12ms]
+2024-07-01 14:00:50.747 [warning] No such branch: .invalid.
+2024-07-01 14:00:50.759 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-07-01 14:00:50.766 [info] Open repository: /home/garo/.cache/yay/cosmic-epoch-git
+2024-07-01 14:00:50.779 [info] > git status -z -uall [21ms]
+2024-07-01 14:00:50.797 [info] > git config --get commit.template [18ms]
+2024-07-01 14:00:50.824 [info] > git config --get commit.template [28ms]
+2024-07-01 14:00:50.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-07-01 14:00:50.839 [warning] ENOENT: no such file or directory, open '/home/garo/.cache/yay/cosmic-epoch-git/.git/refs/remotes/origin/master'
+2024-07-01 14:00:50.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/.invalid refs/remotes/.invalid [16ms]
+2024-07-01 14:00:50.840 [warning] No such branch: .invalid.
+2024-07-01 14:00:50.854 [info] > git rev-parse refs/remotes/origin/master [15ms]
+2024-07-01 14:00:50.875 [info] > git status -z -uall [23ms]
+2024-07-01 14:00:50.875 [info] > git status -z -uall [8ms]
+2024-07-01 14:00:50.909 [info] > git merge-base refs/heads/master refs/remotes/origin/master [21ms]
+2024-07-01 14:00:50.924 [info] > git config --get commit.template [14ms]
+2024-07-01 14:00:50.926 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [4ms]
+2024-07-01 14:00:50.951 [info] > git diff --name-status -z --diff-filter=ADMR 0ecba5806efc0af9cf13a7bec55a451ae7edcb33...refs/remotes/origin/master [13ms]
+2024-07-01 14:00:50.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-07-01 14:00:50.963 [warning] ENOENT: no such file or directory, open '/home/garo/.cache/yay/cosmic-epoch-git/.git/refs/remotes/origin/master'
+2024-07-01 14:00:50.966 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-01 14:00:50.979 [info] > git status -z -uall [3ms]
+2024-07-01 14:53:49.603 [info] > git config --get commit.template [16ms]
+2024-07-01 14:53:49.603 [info] > git config --get commit.template [29ms]
+2024-07-01 14:53:49.605 [info] > git config --get commit.template [3ms]
+2024-07-01 14:53:49.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-07-01 14:53:49.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2024-07-01 14:53:49.658 [warning] ENOENT: no such file or directory, open '/home/garo/.cache/yay/adw-gtk3/.git/refs/remotes/origin/master'
+2024-07-01 14:53:49.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-07-01 14:53:49.675 [info] > git rev-parse refs/remotes/origin/master [17ms]
+2024-07-01 14:53:49.689 [info] > git status -z -uall [15ms]
+2024-07-01 14:53:49.707 [info] > git status -z -uall [19ms]
+2024-07-01 14:53:49.726 [info] > git status -z -uall [20ms]
+2024-07-01 14:53:49.727 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2024-07-01 14:53:49.762 [info] > git merge-base refs/heads/master refs/remotes/origin/master [7ms]
+2024-07-01 14:53:49.776 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [36ms]
+2024-07-01 14:53:49.793 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [17ms]
+2024-07-01 14:53:49.810 [info] > git diff --name-status -z --diff-filter=ADMR c48470c5fb34030494ebd5d2f4e4b7c59dfab032...refs/remotes/origin/master [20ms]
+2024-07-01 14:53:49.812 [info] > git diff --name-status -z --diff-filter=ADMR 78fd1b8a01063d22e271eaf6a513fcff57304964...refs/remotes/origin/master [5ms]

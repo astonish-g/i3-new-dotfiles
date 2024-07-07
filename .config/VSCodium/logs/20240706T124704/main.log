@@ -1,0 +1,5 @@
+2024-07-06 12:47:05.060 [info] update#setState disabled
+2024-07-06 12:47:05.061 [info] update#ctor - updates are disabled as there is no update URL
+2024-07-06 12:47:05.999 [error] vscode-file: Refused to load resource /usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/usr/share/code/resources/app/extensions/theme-seti/icons/seti.woff)
+2024-07-06 12:47:06.794 [error] [UtilityProcess type: shared-process, pid: 3208]: crashed with code 133 and reason 'crashed'
+2024-07-06 12:47:11.934 [info] Extension host with pid 3189 exited with code: 0, signal: unknown.

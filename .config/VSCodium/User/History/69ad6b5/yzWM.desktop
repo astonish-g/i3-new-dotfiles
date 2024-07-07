@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Second Life
+Exec=/home/garo/.local/bin/firestorm/firestorm
+Terminal=false
+Type=Application
+Icon=/home/garo/.local/bin/firestorm/firestorm_icon.png
+X-AppImage-Version=1.5.8
+Comment=Firestorm
+Categories=Chat;

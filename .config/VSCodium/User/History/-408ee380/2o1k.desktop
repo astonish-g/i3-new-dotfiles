@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Joplin
+Exec=/home/garo/.local/bin/joplin/AppRun --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=joplin
+StartupWMClass=/home/garo/.local/bin/joplin/resources/build/icons/256x256.png
+X-AppImage-Version=2.14.22
+MimeType=x-scheme-handler/joplin;
+Comment=Joplin for Desktop
+Categories=Office;
+Name[en_US]=Joplin

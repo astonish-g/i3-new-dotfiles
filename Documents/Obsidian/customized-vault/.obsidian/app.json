@@ -1,0 +1,11 @@
+{
+  "spellcheck": false,
+  "showInlineTitle": true,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false,
+  "propertiesInDocument": "hidden",
+  "alwaysUpdateLinks": true,
+  "tabSize": 4
+}

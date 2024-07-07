@@ -1,0 +1,6 @@
+2024-07-06 12:43:00.871 [info] Started local extension host with pid 5050.
+2024-07-06 12:43:00.886 [info] Started initializing default profile extensions in extensions installation folder. file:///home/garo/.vscode/extensions
+2024-07-06 12:43:01.032 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/garo/.vscode/extensions
+2024-07-06 12:43:03.915 [info] [perf] Render performance baseline is 19ms
+2024-07-06 12:43:18.737 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/garo/.config/Code/logs/20240515T205433/window1/exthost/output_logging_20240515T205436' failed: No such file or directory (EUNKNOWN) (path: /home/garo)
+2024-07-06 12:43:18.738 [error] [File Watcher (universal)] inotify_add_watch on '/home/garo/.config/Code/logs/20240515T205433/window1/exthost/output_logging_20240515T205436' failed: No such file or directory

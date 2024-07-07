@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PureRef
+GenericName=Reference Image Viewer
+Comment=PureRef - Simple and lightweight reference image viewer.
+Exec=/home/garo/.local/bin/pureref/bin/PureRef
+Terminal=false
+Icon=/home/garo/.local/bin/pureref/share/icons/hicolor/48x48/apps/pureref.png
+Categories=Graphics;
+MimeType=application/pureref;
+StartupNotify=true

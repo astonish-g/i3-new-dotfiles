@@ -1,0 +1,3 @@
+2024-07-06 12:43:01.018 [info] Started initializing default profile extensions in extensions installation folder. file:///home/garo/.vscode/extensions
+2024-07-06 12:43:01.068 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/garo/.vscode/extensions Unable to create file 'vscode-userdata:/home/garo/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-07-06 12:43:01.068 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/garo/.vscode/extensions

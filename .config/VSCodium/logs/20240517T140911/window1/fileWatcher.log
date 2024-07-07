@@ -1,0 +1,4 @@
+2024-05-17 14:10:05.547 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/garo/.firestorm_x64/cache/cef_cache/undefined/blob_storage/7201750c-5c50-4d22-801e-338c6db4203c' failed: No such file or directory (EUNKNOWN) (path: /home/garo)
+2024-05-17 14:10:05.547 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/garo/.firestorm_x64/cache/cef_cache/undefined/blob_storage/7201750c-5c50-4d22-801e-338c6db4203c' failed: No such file or directory
+2024-05-17 14:10:41.282 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/garo/.firestorm_x64/logs/dump-cfca0873-85fa-3100-d357-5a898d92f5f4' failed: No such file or directory (EUNKNOWN) (path: /home/garo)
+2024-05-17 14:10:41.283 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/garo/.firestorm_x64/logs/dump-cfca0873-85fa-3100-d357-5a898d92f5f4' failed: No such file or directory
