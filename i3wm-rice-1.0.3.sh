@@ -111,7 +111,7 @@ read -p "Would you like to install Oracle Virtualbox 7? [y/n] " ANSWER4
 if [[ $ANSWER4 = y ]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
 ./virtualbox-install.sh
-fi &&
+fi
 
 
 
