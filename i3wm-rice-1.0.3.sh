@@ -87,7 +87,7 @@ echo
 # Install Optional Apps
 # Set-up GitHub
 read -p "Would you like to configure GitHub on your computer [y/n] " ANSWER1
-if [[ $ANSWER1 = y]] ; then
+if [[ $ANSWER1 = y ]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
 ./install-github-v2.sh
 fi &&
