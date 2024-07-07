@@ -35,14 +35,14 @@ ninja -C build install &&
 sleep 2
 
 # Install necessary apps for my i3 set-up
-sudo dnf install alacritty rofi feh nitrogen polybar lxappearance nemo nemo-fileroller brightnessctl -y &&
+sudo dnf install alacritty rofi nitrogen polybar lxappearance nemo nemo-fileroller brightnessctl fasfetch htop -y &&
 
 echo "Installation is succesful! Please do not close the terminal." &&
 sleep 2
 echo "Now we will copy the files" &&
 sleep 2
-cd ~/Downloads/i3-new-dotfiles/ &&
-./extra-0.2.sh &&
+cd ~/Downloads/i3-new-dotfiles/helper-scripts/ &&
+./config-0.2.sh &&
 
 #Enable tap-to-click 
 
@@ -84,33 +84,34 @@ dconf write /org/nemo/preferences/inherit-folder-viewer true &&
 echo "Nemo configuration is done."
 echo
 
+# Install Optional Apps
 # Set-up GitHub
-read -p "Would you like to configure GitHub on your computer [y/n]" ANSWER1
+read -p "Would you like to configure GitHub on your computer [y/n] " ANSWER1
 if [[ $ANSWER1 = y]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
-./install-github-v2.sh &&
-fi
+./install-github-v2.sh
+fi &&
 
 # Install Blender 
-read -p "Would you like to install the latest version of Blender? [y/n]" ANSWER2
+read -p "Would you like to install the latest version of Blender? [y/n] " ANSWER2
 if [[ $ANSWER2 = y ]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
-./blender-install-v2.sh &&
-fi
+./blender-install-v2.sh
+fi &&
 
 # Install Obsidian
-read -p "Would you like to install the latest version of Obsidian? [y/n]" ANSWER3
+read -p "Would you like to install the latest version of Obsidian? [y/n] " ANSWER3
 if [[ $ANSWER3 = y ]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
-./obsidian-install.sh &&
-fi
+./obsidian-install.sh
+fi &&
 
 # Install Virtual-box
-read -p "Would you like to install Oracle Virtualbox 7? [y/n]" ANSWER4
+read -p "Would you like to install Oracle Virtualbox 7? [y/n] " ANSWER4
 if [[ $ANSWER4 = y ]] ; then
 cd $HOME/Downloads/i3-new-dotfiles/helper-scripts/
-./virtualbox-install.sh &&
-fi
+./virtualbox-install.sh
+fi &&
 
 
 
